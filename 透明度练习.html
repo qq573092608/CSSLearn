@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ 
+ <head>
+ <meta charset="UTF-8">
+ <title></title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ }
+  
+ .demo {
+ margin: 40px auto;
+ width:800px;
+ /*background-color: #f0ac6b;*/
+ }
+ .demo *{
+ float: left;
+ margin: 20px 30px;
+ width: 0px;
+ height: 0px;
+ }
+  
+ .t1 {
+ /*background-color: #f0ac6b;*/
+ border-top: 10px solid yellow;
+ border-bottom: 40px solid red;
+ border-right: 20px solid gray;
+ border-left: 20px solid blue;
+ }
+  
+ .t2 {
+ /*background-color: #f0ac6b;*/
+ border-bottom: 40px solid transparent;
+ border-right: 40px solid red;
+ /*border-left: 20px solid transparent;*/
+ }
+  
+ .t3 {
+ border-top: 40px solid red;
+ border-right: 20px solid transparent;
+ border-left: 20px solid transparent;
+ }
+  
+ .t4 {
+ border-top: 40px solid transparent;
+ border-left: 40px solid red;
+ }
+  
+ .t5 {
+ border-top: 40px solid red;
+ border-right: 40px solid transparent;
+ }
+  
+ .t6 {
+ border-left: 40px solid transparent;
+ border-bottom: 40px solid red;
+ }
+  
+ .t7 {
+ border-left: 40px solid red;
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ }
+  
+ .t8 {
+ border-right: 40px solid red;
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ }
+
+.borderDemo {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-width: 100px;
+    /* border-top: red;
+    border-right: yellow;
+    border-bottom: green;
+    border-left: orange; */
+    border: 40px solid;
+    border-color: orange blue red green;
+
+}
+
+ </style>
+ </head>
+ 
+ <body>
+
+    <div class="borderDemo">
+
+    </div>
+
+ <div class="demo">
+    <div class="t1"></div>
+    <div class="t3"></div>
+    <div class="t2"></div>
+    <div class="t4"></div>
+    <div class="t5"></div>
+    <div class="t6"></div>
+    <div class="t7"></div>
+    <div class="t8"></div>
+ </div>
+ </body>
+ 
+</html>
